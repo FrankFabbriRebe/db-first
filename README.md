@@ -4,5 +4,13 @@
 
 | Nome colonna | Tipo di dato | Attributi |
 |---|---|---|
-| col1 | col2 | col3 |
-| col1 | col2 | col3 |
+| id | INT | primary key, auto_increment |
+| car_brand | VARCHAR(32) | nullable |
+| car_model | VARCHAR(32) | nullable |
+| production_year | DATE | nullable |
+| kilometres | INT | default(0) |
+| car_color | VARCHAR(16) | nullable |
+| price | INT | default(0) |
+| available | BOOLEAN | default(TRUE) |
+| discount | TINYINT | default(0) |
+| state | TINYINT | default(0) |
